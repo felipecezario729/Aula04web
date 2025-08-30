@@ -31,3 +31,53 @@
 #menu a:hover{
     text-decoration: underline;
 }
+#figurebanner{
+    width: 980px;
+    height: 300px;
+    float: left;
+    background-color: #024059;
+    margin: 10px;
+}
+#banner{
+    margin: auto;
+}
+P{
+    color:#36BBD9;
+}
+h1{font-size: 18px;
+    color:#333  
+}
+div#anunciotablet{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    background-color: #6E8C03;
+    text-align:center;
+    display: none;
+}
+/*Midia Query -css3*/
+@media screen and (min-width:668px) and (max-width:768px) {
+    div#anunciotablet{
+        display: block;
+    }
+@media screen and (max-width:375px)       
+}
+
+article#conteudo{
+    width: 60%;
+    float: left;
+}
+aside#coluna{
+    width: 35%;
+    float: right
+}
+footer#rodape{
+    width: 100%;
+    height: 30px;
+    float: left;
+    background-color: #36BBD9;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+}
